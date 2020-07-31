@@ -11,14 +11,6 @@ variables:
   # Azure Resource Manager connection created during pipeline creation
   azureSubscription: 'test-bc-svc'
   
-  # Web app name
-  webAppName: 'testgame-bc'
-  
-  # Resource group
-  resourceGroupName: 'test-bcRG'
- 
-  # Environment name
-  environmentName: 'testgame-bc'
  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
